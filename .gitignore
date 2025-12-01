@@ -17,6 +17,9 @@
 **/*.kicad_sch-bak
 **/*.kicad_pcb-bak
 
+# Lib personel
+**/*.pretty
+
 # Des fichiers logs
 **/*.log
 
