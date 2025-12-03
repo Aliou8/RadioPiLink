@@ -24,4 +24,4 @@
 **/*.log
 
 # Des fichiers de vs-code
-**/*.vs-code
+**/*.vscode
