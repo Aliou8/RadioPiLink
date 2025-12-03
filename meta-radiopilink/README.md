@@ -17,8 +17,9 @@ Dépendances
 Installation rapide
 -------------------
 1. Placez la couche dans votre répertoire de sources Yocto (ex: poky/sources) :
-    git clone <repo-meta-radiopilink> meta-radiopilink
-
+  ```bash
+  git clone <repo-meta-radiopilink> meta-radiopilink
+  ```
 2. Ajoutez la couche à bblayers dans conf/bblayers.conf :
     meta-radiopilink
 
@@ -33,14 +34,18 @@ Exemples de commandes depuis l'environnement Yocto (après avoir sourcé oe-init
   bitbake core-image-minimal
 
 - Construire l'image RadioPiLink fournie :
-  bitbake radiopilink
-
+  ```bash
+    bitbake radiopilink
+  ```
 
 Déploiement
 ----------
 Après construction, récupérez l'image générée dans tmp/deploy/images/<MACHINE>.
 Pour flasher une carte SD (exemple avec dd) :
+
+  ```bash
   sudo dd if=<image>.sdimg of=/dev/sdX bs=4M conv=fsync
+  ```
 
 Remarques de debug
 ------------------
