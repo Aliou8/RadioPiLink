@@ -1,0 +1,10 @@
+La carte est basée sur un STM32WLE5CCU6 dont la particularité est d'embarquer directement un module sub‑radio.
+
+* Radio
+    * **Plage de fréquence :** 150 MHz à 960 MHz
+    * **Modulation :** LoRa®, (G)FSK, (G)MSK et BPSK
+    * **Sensibilité RX :** –123 dBm pour 2-FSK (à 1,2 Kbit/s), –148 dBm pour LoRa® (à 10,4 kHz, facteur d'étalement 12)
+    * **Puissance de sortie élevée du transmetteur :** programmable jusqu'à +22 dBm
+    * **Puissance de sortie faible du transmetteur :** programmable jusqu'à +15 dBm
+
+Le design actuel ne fonctionne qu'avec des fréquences et des puissances élevées, mais les versions suivantes permettront de mettre en place des commutateurs RF et des commutateurs d'alimentation pour choisir entre **HP/LP** et **HF/LF**.
