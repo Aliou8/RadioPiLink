@@ -19,8 +19,10 @@ RadioPiLink est un projet IoT permettant la transmission de données radio depui
 ## Architecture
 
 Consultez :
+* [meta-radiopilink](meta-radiopilink/README.md)
 * [hardware](hardware/README.md)
 * [software](software/README.md)
+
 
 ## Licence
 Ce projet est distribué sous la licence GNU GPL v3. Voir le fichier LICENSE pour les détails.
