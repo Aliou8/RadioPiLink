@@ -25,3 +25,6 @@
 
 # Des fichiers de vs-code
 **/*.vscode
+**/.vscode/
+**/.history/
+**/**/build/
