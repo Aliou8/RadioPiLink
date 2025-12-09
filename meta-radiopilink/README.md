@@ -39,7 +39,7 @@ Exemples de commandes depuis l'environnement Yocto (après avoir sourcé oe-init
 
 - Construire l'image RadioPiLink fournie :
   ```bash
-    bitbake radiopilink
+    bitbake radiopilink-image
   ```
 
 Déploiement
