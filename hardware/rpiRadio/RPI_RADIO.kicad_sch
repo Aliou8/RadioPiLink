@@ -10886,7 +10886,6 @@
 		)
 		(pin "35"
 			(uuid "3a1bacb2-5e4e-4c60-8e46-093be08d0a12")
-			(alternate "I2C2_SCL")
 		)
 		(pin "16"
 			(uuid "0628bc43-70d8-4487-89a0-bf70d3093a91")
@@ -10964,7 +10963,6 @@
 		)
 		(pin "34"
 			(uuid "7fbf18d6-fa9b-4f4f-9e05-816dc5df29e2")
-			(alternate "I2C2_SDA")
 		)
 		(pin "36"
 			(uuid "3d11f63b-ad05-432d-8e4c-6012fb4cdb27")

@@ -22,9 +22,13 @@ Installation rapide
   ```
 2. Ajoutez la couche à bblayers dans conf/bblayers.conf :
     meta-radiopilink
-
+    
 3. Dans conf/local.conf, définissez la MACHINE appropriée et ajoutez toute
     variable spécifique au projet .
+  ```bash
+    IMAGE_INSTALL:append = " radiopilink "
+    DISTRO = "radiopilinkdistro"
+  ```
 
 Construction
 -----------
